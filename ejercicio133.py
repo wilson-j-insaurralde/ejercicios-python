@@ -2,3 +2,20 @@
 
 
 
+def cargaLista():
+    lista=[]
+    for j in range(5):
+        val=int(input("ingrese valor entero: "))
+        lista.append(val)
+    print(lista)    
+    return lista
+def mayores(lista):
+    print("elementos que son mayores a 10 de la lista: ")
+    
+    for j in range (len(lista)):
+        if lista[j]>10:
+            print(lista[j])
+        
+
+ver=cargaLista()
+mayores(ver)
