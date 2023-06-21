@@ -6,5 +6,12 @@ def cargarFecha():
     año=input("ingrese el año: ")
     return (dia,mes,año)
 
+def imprimir_fecha(fecha):
+    print(fecha[0],fecha[1],fecha[2],sep="/")
 
+
+# bloque principal
+
+fecha=cargarFecha()
+imprimir_fecha(fecha)
 
